@@ -1,57 +1,55 @@
-# Yarış Navigasyonu Sistemi
+# Race Navigation System
 
-> Bu proje, elektronik sistem geliştirme, konum takibi ve gerçek zamanlı veri görselleştirme alanlarında uygulamalı mühendislik deneyimi kazanmak amacıyla hazırlanmıştır.
+> A practical engineering project focused on embedded systems, location tracking, and real-time data visualization.
 
-## Proje Özeti
+## Project Overview
 
-Bu proje, yarış veya rota takibi senaryolarında aracın anlık konumunu önceden belirlenmiş rota üzerinde canlı olarak gösterebilmek amacıyla geliştirilmiştir. Sistem Raspberry Pi tabanlı olarak tasarlanmış, GPS modülünden alınan veriler GPX rota verisi ile eşleştirilmiş ve grafik arayüz üzerinde görselleştirilmiştir.
+This Raspberry Pi-based system displays a vehicle's live position along a predefined race or route track. It combines GPS data with a GPX route and visualizes the result through a graphical interface.
 
-## Projenin Amacı
+## Project Goals
 
-Bu projenin temel amacı, gerçek zamanlı konum takibi yapabilen, rota verisini yorumlayabilen ve kullanıcıya sade bir arayüz üzerinden anlık bilgi sunabilen işlevsel bir sistem geliştirmektir.
+The goal is to build a functional system that tracks location in real time, interprets route data, and presents current information through a clear user interface.
 
-## Gerçekleştirilen Çalışmalar
+## Work Completed
 
-- Raspberry Pi tabanlı sistem altyapısı oluşturuldu
-- GPS modülünden canlı konum verisi alındı
-- GPX formatındaki rota verisi sisteme entegre edildi
-- Canlı konum ile rota eşleştirme mantığı geliştirildi
-- Grafik arayüz üzerinde rota ve araç konumu görselleştirildi
-- Gerçek zamanlı takip yapısı oluşturuldu
+- Set up the Raspberry Pi-based system
+- Read live location data from a GPS module
+- Integrated a route in GPX format
+- Matched the live position to the planned route
+- Displayed the route and vehicle position in a graphical interface
+- Implemented real-time tracking
 
-## Kullanılan Teknolojiler
+## Technologies
 
 - Raspberry Pi
-- GPS modülü
+- GPS module
 - Python
-- GPX rota verisi
-- Grafik arayüz bileşenleri
+- GPX route data
+- Graphical interface components
 
-## Teknik Kazanımlar
+## Skills Applied
 
-Bu proje kapsamında aşağıdaki alanlarda uygulamalı deneyim kazanılmıştır:
+- Embedded systems development
+- GPS data processing
+- Route matching
+- Real-time data visualization
+- User interface development
 
-- Gömülü sistem geliştirme
-- GPS veri işleme
-- Rota eşleştirme mantığı
-- Gerçek zamanlı veri görselleştirme
-- Kullanıcı arayüzü geliştirme
+## Project Photos
 
-## Proje Görselleri
+![GPS data reading](images/gps-veri-okuma.png)
+![Initial map view](images/ilk-harita-goruntusu.png)
+![Race track](images/yaris-pisti.png)
+![Vehicle](images/Araba.jpeg)
 
-![GPS veri okuma](images/gps-veri-okuma.png)
-![İlk Harita Goruntusu](images/ilk-harita-goruntusu.png)
-![Yaris Pisti](images/yaris-pisti.png)
-![Araba](images/Araba.jpeg)
+## Possible Extensions
 
-## Geliştirme Potansiyeli
+- Add speed and heading information
+- Display the remaining distance
+- Use a more advanced mapping platform
+- Add touchscreen support
+- Improve location accuracy with correction algorithms
 
-- Hız ve yön bilgisinin eklenmesi
-- Kalan mesafe bilgisinin gösterilmesi
-- Daha gelişmiş harita altyapısı
-- Dokunmatik ekran desteği
-- Daha hassas konum düzeltme algoritmaları
+## Summary
 
-## Sonuç
-
-Bu proje, gerçek zamanlı konum takibi ve rota görselleştirmesi alanında işlevsel bir prototip ortaya koymaktadır. Aynı zamanda Raspberry Pi tabanlı sistem geliştirme ve yazılım-donanım entegrasyonu konusunda önemli bir uygulama çalışmasıdır.
+This project is a functional prototype for real-time location tracking and route visualization. It also provides hands-on experience with Raspberry Pi development and hardware-software integration.
